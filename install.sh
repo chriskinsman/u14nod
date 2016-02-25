@@ -9,7 +9,7 @@ echo "=============== Installing bower globally ============="
 sudo npm install -g bower
 
 echo "=============== Installing Disque ==============="
-sudo git clone git@github.com:antirez/disque.git
+sudo git clone git://github.com/antirez/disque.git
 pushd /disque
 make .
 ./src/disque-server
