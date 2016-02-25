@@ -12,7 +12,7 @@ echo "=============== Installing Disque ==============="
 sudo git clone git://github.com/antirez/disque.git
 pushd /disque
 make install
-./src/disque-server
+./src/disque-server --version
 popd
 
 for file in /u14nod/version/*;
