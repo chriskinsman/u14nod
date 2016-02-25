@@ -11,7 +11,7 @@ sudo npm install -g bower
 echo "=============== Installing Disque ==============="
 sudo git clone git://github.com/antirez/disque.git
 pushd /disque
-make .
+make install
 ./src/disque-server
 popd
 
